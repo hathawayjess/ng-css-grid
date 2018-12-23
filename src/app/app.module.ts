@@ -6,13 +6,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { GridComponent } from './grid/grid.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardComponent } from './card/card.component';
+import { BootstrapGridComponent } from './bootstrap-grid/bootstrap-grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GridComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent,
+    BootstrapGridComponent
   ],
   imports: [
     BrowserModule,
