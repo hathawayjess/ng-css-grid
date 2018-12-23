@@ -10,13 +10,14 @@
   --white: hsl(0, 0%, 100%);
   --gray: hsl(0, 0%, 38%);
   --gray-dark: hsl(0, 0%, 23%);
-  --primary: hsl(21, 83%, 64%);
-  --primary-dark: hsl(22, 71%, 45%);
+  --background: hsl(212, 33%, 16%);
+  --background-dark: hsl(210, 30%, 9%);
+  --primary: hsl(103, 21%, 44%);
   --secondary: hsl(83, 74%, 27%);
   --success: hsl(83, 70%, 34%);
   --info: hsl(200, 54%, 49%);
   --warning: hsl(42, 63%, 48%);
   --danger: hsl(360, 72%, 38%);
-  --light: hsl(0, 0%, 97%);
+  --light: hsl(206, 14%, 59%);
   --dark: hsl(0, 0%, 13%);
 }

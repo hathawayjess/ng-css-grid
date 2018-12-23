@@ -1,3 +1,13 @@
 nav {
-  background-color: var(--gray-dark);
+  background-color: var(--background);
+}
+
+a {
+  color: var(--light);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--primary);
+  transition: all .1s ease-in;
 }
