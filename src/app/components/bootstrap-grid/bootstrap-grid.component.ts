@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-bootstrap-grid',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bootstrap-grid.component.css']
 })
 export class BootstrapGridComponent implements OnInit {
+  // data = Array<{}>;
+  data = [];
 
-  constructor() { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.data = this.dataService.getData();
   }
 
 }
