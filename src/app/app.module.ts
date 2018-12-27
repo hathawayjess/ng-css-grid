@@ -10,6 +10,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardComponent } from './components/card/card.component';
 import { BootstrapGridComponent } from './components/bootstrap-grid/bootstrap-grid.component';
 
+import { LandingComponent } from './components/landing/landing.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,8 @@ import { BootstrapGridComponent } from './components/bootstrap-grid/bootstrap-gr
     NavbarComponent,
     FooterComponent,
     CardComponent,
-    BootstrapGridComponent
+    BootstrapGridComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+.landing-wrapper {
+  height: calc(100vh - 50px);
+}
+
+h1 {
+  font-size: 50px;
+  color: var(--gray);
+}
+
+h2 {
+  color: var(--light-gray);
+  padding-left: 5rem;
+}
+
+h5 {
+  color:var(--light-gray);
+}
+
+span.question {
+  color: var(--light-gray);
+}
+
+span.emphasis {
+  color: var(--primary);
+}
