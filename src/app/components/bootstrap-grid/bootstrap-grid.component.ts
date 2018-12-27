@@ -7,7 +7,6 @@ import { DataService } from '../../services/data.service';
   styleUrls: ['./bootstrap-grid.component.css']
 })
 export class BootstrapGridComponent implements OnInit {
-  // data = Array<{}>;
   data = [];
 
   constructor(private dataService: DataService) { }
